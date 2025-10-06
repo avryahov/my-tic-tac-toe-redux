@@ -1,0 +1,37 @@
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+    padding: 20px;
+    max-width: 320px;
+    margin: 0 auto;
+    background: #f0f0f0;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.game h1 {
+    font-size: 24px;
+    margin-bottom: 16px;
+    color: #1a1a1a;
+    font-weight: 600;
+}
+
+.resetButton {
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: #4040ff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.resetButton:hover {
+    background-color: #3030cc;
+}
